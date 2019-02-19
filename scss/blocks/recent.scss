@@ -1,0 +1,41 @@
+.recent {
+  margin-top: 140px;
+  color: $gray;
+  text-align: center;
+  p {
+    font-family: "Opens Sans";
+    font-size: 14px;
+    line-height: 29px;
+    letter-spacing: 0.14px;
+    margin: 20px 0;
+    color: $gray;
+  }
+  .recent__devider {
+    @include devider($advantages-gray);
+  }
+  .recent__title {
+    font-family: "Source Sans Pro";
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 3.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .recent__links {
+    margin: 40px 0;
+    text-align: center;
+    color: $advantages-gray;
+    a {
+      font-size: 14px;
+      color: $advantages-gray;
+      text-decoration: none;
+      display: inline-block;
+      margin: 5px 18px;
+      transition-duration: .5s;
+      transition-property: color;
+      &:hover {
+        color: $red;
+      }
+    }
+  }
+}
