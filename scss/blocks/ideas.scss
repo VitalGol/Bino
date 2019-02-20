@@ -25,7 +25,6 @@
     }
   }
   .ideas__icon {
-    // display: flex;
     width: 127px;
     height: 127px;
     background-color: $red;
@@ -41,7 +40,7 @@
     }
     .ideas__img {
       fill: $white;
-      width: 30px;
+      width: 35px;
       height: 40px;
     }
   }
@@ -72,8 +71,9 @@
     }
     .case-study__right {
       flex-basis: 50%;
+
       img {
-        max-width: 100%;
+        // max-width: 100%;
       }
     }
   }
@@ -89,6 +89,10 @@
     }
     .case-study__right {
       margin-top: 30px;
+      img {
+        max-width: 100%;
+        margin-left: 0;
+      }
     }
   }
 }
