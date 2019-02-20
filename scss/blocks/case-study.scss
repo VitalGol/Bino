@@ -1,0 +1,39 @@
+.case-study {
+  background-color: $white-gray;
+  padding: 140px 0;
+  p {
+    font-family: "Opens Sans";
+    font-size: 14px;
+    line-height: 29px;
+    letter-spacing: 0.14px;
+    margin: 20px 0;
+    color: $gray;
+    text-align: center;
+  }
+  .case-study__devider {
+    @include devider($advantages-gray);
+  }
+  .case-study__title {
+    font-family: "Source Sans Pro";
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 3.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .case-study__block {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .case-study__left {
+    position: relative;
+    flex-basis: 665px;
+    z-index: 1;
+  }
+  .case-study__right {
+    img {
+      margin-left: -80px;
+    }
+  }
+}
